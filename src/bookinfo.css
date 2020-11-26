@@ -1,0 +1,57 @@
+.bookinfo {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .book_container {
+    flex-direction: column;
+  }
+  .book_img {
+    text-align: center;
+    display: block;
+  }
+}
+.book_container {
+  display: flex;
+  width: 60%;
+  text-align: left;
+  margin: 10vh auto;
+}
+.book_img > img {
+  height: 42vh;
+  width: 16vw;
+  margin-right: 25px;
+}
+.book_img > button {
+  padding: 12px;
+  margin-top: 12px;
+  width: 16vw;
+  border: none;
+  background: #3ca59d;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.3em;
+}
+.book_img > button:focus {
+  outline: none;
+}
+h2 {
+  font-size: 2em;
+  margin: 5px;
+}
+h4 {
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 5px;
+  font-weight: lighter;
+}
+h5 {
+  
+  font-size: 1.2em;
+  margin: 5px;
+  font-weight: lighter;
+}
+
+p {
+  font-family: "Stolzl Book", Helvetica;
+}

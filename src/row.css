@@ -1,0 +1,45 @@
+.container > header{
+  text-align:center;
+  margin:17px;
+  
+  
+}
+h1{
+  font-size:4.4em;
+}
+
+
+.row{
+    display:flex;
+    width:90%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.row >p {
+    font-size:0.8em;
+    
+}
+.searchform {
+    text-align: center;
+  }
+  
+  .searchform > input {
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1em;
+    width: 35%;
+    margin-right: 10px;
+  }
+  
+  .searchform > input:focus {
+    outline: none;
+  }
+  .searchform > button {
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius:7px;
+    border:none;
+    background: #59886b;
+    color:white;
+  }
