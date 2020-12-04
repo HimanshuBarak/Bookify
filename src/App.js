@@ -1,12 +1,6 @@
 import React,{useState} from 'react'
-import './App.css';
 import Row from './Row';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {BrowserRouter as Router, Switch,Route,} from "react-router-dom";
 import Bookinfo from './BookInfo';
 
 
