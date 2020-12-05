@@ -28,10 +28,7 @@ function Row() {
         setexample('Popular Titles in Fiction')
       }
     }, [search])
-    let handlesubmit=e=>{
-        e.preventDefault()
-       
-    }
+    
     return (
         <div className="container">
         <header >
@@ -45,7 +42,7 @@ function Row() {
            
            
         <div className="row">
-            {books.map(book=>{
+            {books?.map(book=>{
                 return  <Book id={book.id}  book={book}/>
                  
            })}
