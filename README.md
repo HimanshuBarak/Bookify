@@ -2,22 +2,22 @@
 
 ### Live Demo - [Bookify](https://findnovels.netlify.app/).
 
-
+## Preview
+<img src="Screenshots/ss1.JPG" width="1000" height="500">
+<img src="Screenshots/ss2.JPG" width="1000" height="500">
+<img src="Screenshots/ss3.JPG" width="1000" height="500">
 
 ## Table of Content
 - [Description](#description)
 - [Usage](#usage)
-
 - [Author Info](#author-info)
-
 - [Issues](#issues)
-
 - [Contribution](#contribution)
 
 
 ## Description
 
-This project is made using React js and Reactstrap. It fetches all the book information using the google books API. The user can search the title of their choice and get all the information regarding those titles. I have used React Router for implementing the various routes.I have used Axios to fetch the data from the GoogleBooks API.
+This project is made using React js and Reactstrap. It fetches all the book information using the google books API. The user can search the title of their choice and get all the information regarding those titles.The user also have the option to preview book on Google Books. I have used React Router for implementing the various routes and used Axios to fetch the data from the GoogleBooks API.
 
 ## Usage 
 
@@ -46,12 +46,8 @@ And if you liked the project, show your support by leaving a 🌟!!
 
 In general, we follow the "fork-and-pull" Git workflow.
 
-1.Fork the repo on GitHub
-
-2.Clone the project to your own machine
-
-3.Commit changes to your own branch
-
-4.Push your work back up to your fork
-
-5.Submit a Pull request so that we can review your changes
+1. Fork the repo on GitHub
+2. Clone the project to your own machine
+3. Commit changes to your own branch
+4. Push your work back up to your fork
+5. Submit a Pull request so that we can review your changes
